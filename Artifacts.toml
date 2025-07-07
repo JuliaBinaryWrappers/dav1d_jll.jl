@@ -1,143 +1,160 @@
 [[dav1d]]
 arch = "aarch64"
-git-tree-sha1 = "a531f9223cbb813b7d79bcd94aa6f8f1e19b870b"
+git-tree-sha1 = "299b3750a3db2d59987dc37241341b50bdf4b769"
 os = "macos"
 
     [[dav1d.download]]
-    sha256 = "b502b5d9b26da601a5ef45f9db145965cde1f7678888e48f9ac8bfe437f8e4f2"
-    url = "https://github.com/JuliaBinaryWrappers/dav1d_jll.jl/releases/download/dav1d-v1.4.1+0/dav1d.v1.4.1.aarch64-apple-darwin.tar.gz"
+    sha256 = "9bdbead4810775772b4777239ea26d5a8049f53d87b71ae2e2a1e1e9a9641b7d"
+    url = "https://github.com/JuliaBinaryWrappers/dav1d_jll.jl/releases/download/dav1d-v1.5.1+0/dav1d.v1.5.1.aarch64-apple-darwin.tar.gz"
 [[dav1d]]
 arch = "aarch64"
-git-tree-sha1 = "47283db890fea5d858a99656bde636185502d768"
+git-tree-sha1 = "d80b4e5d29c19e1bc44ba1dea65b14cb4172db6c"
 libc = "glibc"
 os = "linux"
 
     [[dav1d.download]]
-    sha256 = "f74423787f616592ad6db83a0d9ff88f90d373a398b44b18599a4fc3cc3d050e"
-    url = "https://github.com/JuliaBinaryWrappers/dav1d_jll.jl/releases/download/dav1d-v1.4.1+0/dav1d.v1.4.1.aarch64-linux-gnu.tar.gz"
+    sha256 = "b5b2132f24834b2ce7a65ea4fc4c3ad8a15441a04f408c955db33cad18a86ec3"
+    url = "https://github.com/JuliaBinaryWrappers/dav1d_jll.jl/releases/download/dav1d-v1.5.1+0/dav1d.v1.5.1.aarch64-linux-gnu.tar.gz"
 [[dav1d]]
 arch = "aarch64"
-git-tree-sha1 = "0028b474966337162ec9f83def431276facb6f7f"
+git-tree-sha1 = "b3954143545cee34d44c83c11cd5b63100be3648"
 libc = "musl"
 os = "linux"
 
     [[dav1d.download]]
-    sha256 = "56534dd1da08bc6289a7e854a5a1803dd99307dcaa58b36fcd183d263a6cb31b"
-    url = "https://github.com/JuliaBinaryWrappers/dav1d_jll.jl/releases/download/dav1d-v1.4.1+0/dav1d.v1.4.1.aarch64-linux-musl.tar.gz"
+    sha256 = "7cec96e49ba11e499ef8778e8bc3c2210ef8fed472bd0c27a3c80ab9f0f45ada"
+    url = "https://github.com/JuliaBinaryWrappers/dav1d_jll.jl/releases/download/dav1d-v1.5.1+0/dav1d.v1.5.1.aarch64-linux-musl.tar.gz"
 [[dav1d]]
-arch = "armv6l"
-call_abi = "eabihf"
-git-tree-sha1 = "9652b0ca626f37123cc1f5e5c8396cacb99a3ab6"
-libc = "glibc"
-os = "linux"
-
-    [[dav1d.download]]
-    sha256 = "24da9b73b9ee3f5cbe20d63e52b7915669e930709006bb2742bf2fb855e0c261"
-    url = "https://github.com/JuliaBinaryWrappers/dav1d_jll.jl/releases/download/dav1d-v1.4.1+0/dav1d.v1.4.1.armv6l-linux-gnueabihf.tar.gz"
-[[dav1d]]
-arch = "armv6l"
-call_abi = "eabihf"
-git-tree-sha1 = "edbc9d23c58624966b401bf95aeb32158bdeb475"
-libc = "musl"
-os = "linux"
-
-    [[dav1d.download]]
-    sha256 = "5103b532ab12f025fafe4dadb3647dbee42da7041d665d3297f8af109acfafb1"
-    url = "https://github.com/JuliaBinaryWrappers/dav1d_jll.jl/releases/download/dav1d-v1.4.1+0/dav1d.v1.4.1.armv6l-linux-musleabihf.tar.gz"
-[[dav1d]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "62ca284277bb406c5987557100e9caf1fb22b9e7"
-libc = "glibc"
-os = "linux"
-
-    [[dav1d.download]]
-    sha256 = "de134de8fc299ce609c5bbc39e20370b91759988288444121e1869ba85e0c9c7"
-    url = "https://github.com/JuliaBinaryWrappers/dav1d_jll.jl/releases/download/dav1d-v1.4.1+0/dav1d.v1.4.1.armv7l-linux-gnueabihf.tar.gz"
-[[dav1d]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "4fe8b46d7f6df11d2c1a8083ad54ae4eb209191d"
-libc = "musl"
-os = "linux"
-
-    [[dav1d.download]]
-    sha256 = "d6e230cf44a5fad8ddc0c2f45ee517e35f43321f8cd57f02e9008bdafd2726aa"
-    url = "https://github.com/JuliaBinaryWrappers/dav1d_jll.jl/releases/download/dav1d-v1.4.1+0/dav1d.v1.4.1.armv7l-linux-musleabihf.tar.gz"
-[[dav1d]]
-arch = "i686"
-git-tree-sha1 = "53bcf3c785ef0310724fcbae2b979aaf58a5232e"
-libc = "glibc"
-os = "linux"
-
-    [[dav1d.download]]
-    sha256 = "195844a88ed0f22a9767f9f2473670f80419ab6e7cd5edebcfab1f1d5ed831e3"
-    url = "https://github.com/JuliaBinaryWrappers/dav1d_jll.jl/releases/download/dav1d-v1.4.1+0/dav1d.v1.4.1.i686-linux-gnu.tar.gz"
-[[dav1d]]
-arch = "i686"
-git-tree-sha1 = "be4bb5bf365c211337d7643080544365d77c2637"
-libc = "musl"
-os = "linux"
-
-    [[dav1d.download]]
-    sha256 = "12a5dd7e9ef795c0445c6f2d5181f2c3f9737711a77a99bf4f9f8acac4ae1e87"
-    url = "https://github.com/JuliaBinaryWrappers/dav1d_jll.jl/releases/download/dav1d-v1.4.1+0/dav1d.v1.4.1.i686-linux-musl.tar.gz"
-[[dav1d]]
-arch = "i686"
-git-tree-sha1 = "d9331140b4045e9a5a49bc5e9b9057fcbd6c2097"
-os = "windows"
-
-    [[dav1d.download]]
-    sha256 = "23b6e15443a1bdf4be88ea9033e0531ffca201c7588083593d0ae9f43b4289ba"
-    url = "https://github.com/JuliaBinaryWrappers/dav1d_jll.jl/releases/download/dav1d-v1.4.1+0/dav1d.v1.4.1.i686-w64-mingw32.tar.gz"
-[[dav1d]]
-arch = "powerpc64le"
-git-tree-sha1 = "49a70c5acd8554f25fcc20e835bc1f87de14d1f8"
-libc = "glibc"
-os = "linux"
-
-    [[dav1d.download]]
-    sha256 = "c2d2ce60bc5bdbde5d2689d215944e6a2796ccce317883ce086ff1c012e26b95"
-    url = "https://github.com/JuliaBinaryWrappers/dav1d_jll.jl/releases/download/dav1d-v1.4.1+0/dav1d.v1.4.1.powerpc64le-linux-gnu.tar.gz"
-[[dav1d]]
-arch = "x86_64"
-git-tree-sha1 = "4315705424ce7a90241543b73b0ec51998b537f2"
-os = "macos"
-
-    [[dav1d.download]]
-    sha256 = "62595b15182961b41f51af20a705930aefc61c2754826feedcf0747e538b5c1b"
-    url = "https://github.com/JuliaBinaryWrappers/dav1d_jll.jl/releases/download/dav1d-v1.4.1+0/dav1d.v1.4.1.x86_64-apple-darwin.tar.gz"
-[[dav1d]]
-arch = "x86_64"
-git-tree-sha1 = "7165185f77469b93ff5a5c25b258dbe41f021c3d"
-libc = "glibc"
-os = "linux"
-
-    [[dav1d.download]]
-    sha256 = "549d30106954f4ccb568c9d019ffac2f0a4d93ac57a6a668f66c667db00ef0ba"
-    url = "https://github.com/JuliaBinaryWrappers/dav1d_jll.jl/releases/download/dav1d-v1.4.1+0/dav1d.v1.4.1.x86_64-linux-gnu.tar.gz"
-[[dav1d]]
-arch = "x86_64"
-git-tree-sha1 = "b8338e116f9b74720154fe372ca3926ed5a78da5"
-libc = "musl"
-os = "linux"
-
-    [[dav1d.download]]
-    sha256 = "a6e2594b13a4504159b0c1cb9b54bdbe71f94ad62eb2ad35c39c54511aad883b"
-    url = "https://github.com/JuliaBinaryWrappers/dav1d_jll.jl/releases/download/dav1d-v1.4.1+0/dav1d.v1.4.1.x86_64-linux-musl.tar.gz"
-[[dav1d]]
-arch = "x86_64"
-git-tree-sha1 = "76f089b08ff9365d3049ad42627db7440335dc3a"
+arch = "aarch64"
+git-tree-sha1 = "a0a0e0716488e1bf762db2f6a86ad3f892ea64ca"
 os = "freebsd"
 
     [[dav1d.download]]
-    sha256 = "20972f8286f3e89e86f7ebb936c9888442df8df99c134f4b4f1ddb3d064cedcd"
-    url = "https://github.com/JuliaBinaryWrappers/dav1d_jll.jl/releases/download/dav1d-v1.4.1+0/dav1d.v1.4.1.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "0f16e09376ab1f1fcc76898338191bed81b010b12a18b1ef0a4749489bb85f38"
+    url = "https://github.com/JuliaBinaryWrappers/dav1d_jll.jl/releases/download/dav1d-v1.5.1+0/dav1d.v1.5.1.aarch64-unknown-freebsd.tar.gz"
 [[dav1d]]
-arch = "x86_64"
-git-tree-sha1 = "cbf650af4aa88183f3fb5047b258162b8275b338"
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "eaa9c5aab367de63bc828fd828141ca284992cb1"
+libc = "glibc"
+os = "linux"
+
+    [[dav1d.download]]
+    sha256 = "7da6e68ea87e4e3277ab1300f0dcbf78bc5d562496037c40396eb69da400bb9a"
+    url = "https://github.com/JuliaBinaryWrappers/dav1d_jll.jl/releases/download/dav1d-v1.5.1+0/dav1d.v1.5.1.armv6l-linux-gnueabihf.tar.gz"
+[[dav1d]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "3092fa6f0ba0b325b9291b2c50b3eb590ed7a47b"
+libc = "musl"
+os = "linux"
+
+    [[dav1d.download]]
+    sha256 = "6b21bff890d8f53dec195f8b28875cae485dec60bda79cb9b56e54f22603f372"
+    url = "https://github.com/JuliaBinaryWrappers/dav1d_jll.jl/releases/download/dav1d-v1.5.1+0/dav1d.v1.5.1.armv6l-linux-musleabihf.tar.gz"
+[[dav1d]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "5c2b9fc3cf6a10efc0e861408ab03d57780a77e3"
+libc = "glibc"
+os = "linux"
+
+    [[dav1d.download]]
+    sha256 = "07ffdfe97150cb04771c704d928a3e214efc677b8ec6a966fa6be75d7554ae4c"
+    url = "https://github.com/JuliaBinaryWrappers/dav1d_jll.jl/releases/download/dav1d-v1.5.1+0/dav1d.v1.5.1.armv7l-linux-gnueabihf.tar.gz"
+[[dav1d]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "b86f7604cdf53ae166063b6ea73ecef29ecd7c54"
+libc = "musl"
+os = "linux"
+
+    [[dav1d.download]]
+    sha256 = "84c93c248e5a09b5ff298d2bf091ab51f0abb61f6e54a6ae1e51dbb6de9973f2"
+    url = "https://github.com/JuliaBinaryWrappers/dav1d_jll.jl/releases/download/dav1d-v1.5.1+0/dav1d.v1.5.1.armv7l-linux-musleabihf.tar.gz"
+[[dav1d]]
+arch = "i686"
+git-tree-sha1 = "001af9e18057f82044855bd8ff78883b621b7591"
+libc = "glibc"
+os = "linux"
+
+    [[dav1d.download]]
+    sha256 = "f8f5aca60483f7ece5f2eb928ed7c80818604e4a49555fa9e1ced248451fb4d9"
+    url = "https://github.com/JuliaBinaryWrappers/dav1d_jll.jl/releases/download/dav1d-v1.5.1+0/dav1d.v1.5.1.i686-linux-gnu.tar.gz"
+[[dav1d]]
+arch = "i686"
+git-tree-sha1 = "113404595247ba8c5d4c6362a4ac3f12755b873d"
+libc = "musl"
+os = "linux"
+
+    [[dav1d.download]]
+    sha256 = "8cb6853b8c09d2388099701b18476b420768f0f01849002855ff31e90a769347"
+    url = "https://github.com/JuliaBinaryWrappers/dav1d_jll.jl/releases/download/dav1d-v1.5.1+0/dav1d.v1.5.1.i686-linux-musl.tar.gz"
+[[dav1d]]
+arch = "i686"
+git-tree-sha1 = "d150d97d74909de030dcf9d794964df4e8cbad56"
 os = "windows"
 
     [[dav1d.download]]
-    sha256 = "65569fa7b8dad7f90ebe22981019b66df3edfd7e4514daba9d372c12ccb06cfe"
-    url = "https://github.com/JuliaBinaryWrappers/dav1d_jll.jl/releases/download/dav1d-v1.4.1+0/dav1d.v1.4.1.x86_64-w64-mingw32.tar.gz"
+    sha256 = "cadcf67a16f116637e2a7ef288a69c077f990863a7650def77bbb1b7f9b2ee19"
+    url = "https://github.com/JuliaBinaryWrappers/dav1d_jll.jl/releases/download/dav1d-v1.5.1+0/dav1d.v1.5.1.i686-w64-mingw32.tar.gz"
+[[dav1d]]
+arch = "powerpc64le"
+git-tree-sha1 = "7fcccd8529df7d82820492ca4eb07834bdde2251"
+libc = "glibc"
+os = "linux"
+
+    [[dav1d.download]]
+    sha256 = "a28a267196c7af897ef84e37c9ddc2db91d5d912f8eca79edfe9b311718722a6"
+    url = "https://github.com/JuliaBinaryWrappers/dav1d_jll.jl/releases/download/dav1d-v1.5.1+0/dav1d.v1.5.1.powerpc64le-linux-gnu.tar.gz"
+[[dav1d]]
+arch = "riscv64"
+git-tree-sha1 = "097462d93df3c075f4c0cfdf4133115690004951"
+libc = "glibc"
+os = "linux"
+
+    [[dav1d.download]]
+    sha256 = "5a540f2388f651dd05f0830ef48e2ef84fe56977c59031a9bc9659a3cac0622e"
+    url = "https://github.com/JuliaBinaryWrappers/dav1d_jll.jl/releases/download/dav1d-v1.5.1+0/dav1d.v1.5.1.riscv64-linux-gnu.tar.gz"
+[[dav1d]]
+arch = "x86_64"
+git-tree-sha1 = "66f1cd52dabb9b97910eea076c9d1d56416ac1a1"
+os = "macos"
+
+    [[dav1d.download]]
+    sha256 = "58739377cedf73d55ffd47ae72d8d428bc03fd0821e0e76a67c587425f824b81"
+    url = "https://github.com/JuliaBinaryWrappers/dav1d_jll.jl/releases/download/dav1d-v1.5.1+0/dav1d.v1.5.1.x86_64-apple-darwin.tar.gz"
+[[dav1d]]
+arch = "x86_64"
+git-tree-sha1 = "0f2f2286074c7cb6921bb3d37d0488657ed27f59"
+libc = "glibc"
+os = "linux"
+
+    [[dav1d.download]]
+    sha256 = "f65def36b89215a5f1995e035ab401c3dca8615adf1ad482f5252b94d5545ce7"
+    url = "https://github.com/JuliaBinaryWrappers/dav1d_jll.jl/releases/download/dav1d-v1.5.1+0/dav1d.v1.5.1.x86_64-linux-gnu.tar.gz"
+[[dav1d]]
+arch = "x86_64"
+git-tree-sha1 = "f44eaa2ead59b5fd26610699e93c82335be13b05"
+libc = "musl"
+os = "linux"
+
+    [[dav1d.download]]
+    sha256 = "e0d3bc351befccc233403ac457e55716842d2b54634ff9b72e433826f629ff8b"
+    url = "https://github.com/JuliaBinaryWrappers/dav1d_jll.jl/releases/download/dav1d-v1.5.1+0/dav1d.v1.5.1.x86_64-linux-musl.tar.gz"
+[[dav1d]]
+arch = "x86_64"
+git-tree-sha1 = "0bf1b6ac2d29b484c6aac7499725916cb7868397"
+os = "freebsd"
+
+    [[dav1d.download]]
+    sha256 = "65e846514df35f42f601e460e1b59c581b430f59ccf5f06977306c3fd0a8f088"
+    url = "https://github.com/JuliaBinaryWrappers/dav1d_jll.jl/releases/download/dav1d-v1.5.1+0/dav1d.v1.5.1.x86_64-unknown-freebsd.tar.gz"
+[[dav1d]]
+arch = "x86_64"
+git-tree-sha1 = "8076c13200dd0ac98c2098576f1d01c16791a196"
+os = "windows"
+
+    [[dav1d.download]]
+    sha256 = "00ac418e687f48079573fb410e40c8108ddf0331dc11da4f112e65d702728c5b"
+    url = "https://github.com/JuliaBinaryWrappers/dav1d_jll.jl/releases/download/dav1d-v1.5.1+0/dav1d.v1.5.1.x86_64-w64-mingw32.tar.gz"
