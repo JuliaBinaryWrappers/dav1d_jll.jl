@@ -1,6 +1,6 @@
 name = "dav1d_jll"
 uuid = "349a489e-63ad-5fc4-b473-f70c9c959831"
-version = "1.5.1+0"
+version = "1.5.3+0"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
