@@ -2,19 +2,19 @@
 export dav1d, libdav1d
 
 JLLWrappers.@generate_wrapper_header("dav1d")
-JLLWrappers.@declare_library_product(libdav1d, "libdav1d.so.7")
 JLLWrappers.@declare_executable_product(dav1d)
+JLLWrappers.@declare_library_product(libdav1d, "libdav1d.so.7")
 function __init__()
     JLLWrappers.@generate_init_header()
+    JLLWrappers.@init_executable_product(
+        dav1d,
+        "bin/dav1d",
+    )
+
     JLLWrappers.@init_library_product(
         libdav1d,
         "lib/libdav1d.so",
         RTLD_LAZY | RTLD_DEEPBIND,
-    )
-
-    JLLWrappers.@init_executable_product(
-        dav1d,
-        "bin/dav1d",
     )
 
     JLLWrappers.@generate_init_footer()
